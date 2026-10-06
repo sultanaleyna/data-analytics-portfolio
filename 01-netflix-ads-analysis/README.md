@@ -110,7 +110,9 @@ Measures revenue generated for every dollar spent on advertising.
 ---
 
 ## 📊 Annual Performance Summary
+### Annual Performance Summary
 
+![Annual Performance Summary](screenshots/summary-results.png)
 The 2025 advertising performance was summarized using aggregated campaign data.
 
 | Metric | Result |
