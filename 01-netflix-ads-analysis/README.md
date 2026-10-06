@@ -130,7 +130,9 @@ The 2025 advertising performance was summarized using aggregated campaign data.
 ---
 
 ## 📅 Monthly Performance Analysis
+### Monthly Performance Overview
 
+![Monthly Performance Analysis](screenshots/monthly-performance.png)
 The advertising data was also analyzed at monthly level to compare campaign performance throughout the year.
 
 The monthly analysis includes:
