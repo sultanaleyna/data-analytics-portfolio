@@ -49,6 +49,9 @@ The following performance indicators were calculated:
 Monthly performance was also analyzed to identify the strongest periods for each channel.
 
 ## Annual Performance Comparison
+## Annual Performance Comparison
+
+![Channel Comparison](screenshots/karşılaştırma.PNG)
 
 | Metric | Instagram | TikTok | Difference |
 |---|---:|---:|---:|
@@ -63,7 +66,9 @@ Monthly performance was also analyzed to identify the strongest periods for each
 | ROAS | 1.94x | **2.98x** | TT +54% |
 
 ## Monthly Performance
+## Monthly Performance
 
+![TikTok Monthly Performance](screenshots/summary_tiktok.PNG)
 Both channels reached their highest spending and conversion levels in December.
 
 However, their strongest revenue months were different:
