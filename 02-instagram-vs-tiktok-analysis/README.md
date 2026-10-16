@@ -1,4 +1,22 @@
+## Instagram Ads – Daily Clicks
 
+![Clicks by Date](screenshots/clics%20-%20Date.png)
+
+## Instagram Ads – Monthly Clicks vs. Impressions
+
+![Monthly Clicks vs Impressions](screenshots/instagram%20ads%20monthly%20clicks%20vs%20impression.png)
+
+## TikTok Ads – Monthly Spending and ROAS
+
+![TikTok Monthly Spending and ROAS](screenshots/tiktok%20ads%20monthly%20-spending%20roas%20analysis.png)
+
+## Instagram vs. TikTok – Annual Spending Comparison
+
+![Annual Spending Comparison](screenshots/karşılaştırma.PNG)
+
+## Instagram vs. TikTok – Spending Distribution
+
+![Spending Distribution](screenshots/y%C4%B1l%20boyunca%20instagram%20ads%20ve%20tiktok%20ads%20verilerini%20kars%CC%A7%C4%B1las%CC%A7t%C4%B1ran%20pasta%20grafik.png)
 # Netflix Ads Campaign Analysis II — Instagram vs TikTok
 
 ## Project Overview
