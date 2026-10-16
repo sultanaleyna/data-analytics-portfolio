@@ -84,7 +84,6 @@ Monthly performance was also analyzed to identify the strongest periods for each
 | ROAS | 1.94x | **2.98x** | TT +54% |
 
 ## Monthly Performance
-## Monthly Performance
 
 ![TikTok Monthly Performance](screenshots/summary_tiktok.PNG)
 Both channels reached their highest spending and conversion levels in December.
@@ -147,4 +146,11 @@ Instagram and TikTok both performed strongly in December for spending and conver
 ```text
 02-instagram-vs-tiktok-analysis/
 ├── README.md
-└── Tiktok_Instagram_Ads_Performance_Analysis_2025 (1).xlsx
+├── Tiktok_Instagram_Ads_Performance_Analysis_2025 (1).xlsx
+└── screenshots/
+    ├── clics - Date.png
+    ├── instagram ads monthly clicks vs impression.png
+    ├── karşılaştırma.PNG
+    ├── summary_tiktok.PNG
+    ├── tiktok ads monthly -spending roas analysis.png
+    └── yıl boyunca instagram ads ve tiktok ads verilerini karşılaştıran pasta grafik.png
