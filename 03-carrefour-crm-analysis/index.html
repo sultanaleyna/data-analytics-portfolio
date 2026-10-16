@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Carrefour CRM — Temel Kavramlar</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: #f9f9f8;
+    color: #1a1a1a;
+    padding: 2rem 1rem;
+  }
+  .container { max-width: 680px; margin: 0 auto; }
+  .section-label {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #888;
+    margin-bottom: 12px;
+  }
+  .section { margin-bottom: 2rem; }
+  .goal-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 10px;
+  }
+  .goal-card {
+    background: #fff;
+    border: 0.5px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 1rem;
+  }
+  .goal-icon {
+    width: 32px; height: 32px;
+    border-radius: 8px;
+    display: flex; align-items: center; justify-content: center;
+    margin-bottom: 10px;
+  }
+  .goal-title {
+    font-size: 13px;
+    font-weight: 500;
+    color: #1a1a1a;
+    margin-bottom: 4px;
+    line-height: 1.4;
+  }
+  .goal-desc {
+    font-size: 12px;
+    color: #666;
+    line-height: 1.5;
+  }
+  .kpi-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+  .kpi-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 1rem;
+    cursor: pointer;
+    transition: border-color 0.15s;
+    border: 0.5px solid #e0e0e0;
+    position: relative;
+  }
+  .kpi-card:hover { border-color: #aaa; }
+  .kpi-card.open { border-color: #555; }
+  .kpi-name {
+    font-size: 13px;
+    font-weight: 500;
+    color: #1a1a1a;
+    margin-bottom: 3px;
+  }
+  .kpi-desc {
+    font-size: 12px;
+    color: #666;
+    line-height: 1.4;
+  }
+  .kpi-formula {
+    display: none;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 0.5px solid #e0e0e0;
+    font-size: 12px;
+    color: #444;
+    font-family: 'Courier New', monospace;
+    line-height: 1.6;
+  }
+  .kpi-card.open .kpi-formula { display: block; }
+  .kpi-toggle {
+    position: absolute;
+    top: 10px; right: 12px;
+    font-size: 14px;
+    color: #aaa;
+  }
+  .aim-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .aim-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 12px;
+    background: #fff;
+    border: 0.5px solid #e0e0e0;
+    border-radius: 8px;
+  }
+  .aim-num {
+    font-size: 12px;
+    font-weight: 500;
+    color: #aaa;
+    min-width: 20px;
+    margin-top: 1px;
+  }
+  .aim-text {
+    font-size: 13px;
+    color: #1a1a1a;
+    line-height: 1.5;
+    font-weight: 500;
+  }
+  .aim-sub {
+    font-size: 12px;
+    color: #666;
+    margin-top: 2px;
+  }
+  .hint {
+    font-size: 12px;
+    color: #aaa;
+    text-align: center;
+    margin-top: 6px;
+  }
+  .page-title {
+    font-size: 18px;
+    font-weight: 500;
+    color: #1a1a1a;
+    margin-bottom: 4px;
+  }
+  .page-sub {
+    font-size: 13px;
+    color: #888;
+    margin-bottom: 2rem;
+  }
+  @media (max-width: 480px) {
+    .goal-grid { grid-template-columns: 1fr; }
+    .kpi-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <p class="page-title">Carrefour CRM — Temel Kavramlar</p>
+  <p class="page-sub">SUB-TASK 0 referans kartı</p>
+
+  <div class="section">
+    <p class="section-label">CRM'nin 3 ana görevi</p>
+    <div class="goal-grid">
+      <div class="goal-card">
+        <div class="goal-icon" style="background:#E1F5EE;">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <path d="M8 1l1.8 3.6L14 5.4l-3 2.9.7 4.1L8 10.4l-3.7 2 .7-4.1L2 5.4l4.2-.8z" fill="#0F6E56"/>
+          </svg>
+        </div>
+        <p class="goal-title">Marka sadakati</p>
+        <p class="goal-desc">Müşterilerle sürekli iletişim kurarak uzun vadeli bağ oluşturma</p>
+      </div>
+      <div class="goal-card">
+        <div class="goal-icon" style="background:#E6F1FB;">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <rect x="2" y="9" width="3" height="5" rx="1" fill="#185FA5"/>
+            <rect x="6.5" y="6" width="3" height="8" rx="1" fill="#185FA5"/>
+            <rect x="11" y="3" width="3" height="11" rx="1" fill="#185FA5"/>
+          </svg>
+        </div>
+        <p class="goal-title">Dönüşüm artırma</p>
+        <p class="goal-desc">Teklif ve reklamlarla müşterileri satın almaya yönlendirme</p>
+      </div>
+      <div class="goal-card">
+        <div class="goal-icon" style="background:#FAEEDA;">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <path d="M8 2a6 6 0 100 12A6 6 0 008 2zm0 10.5A4.5 4.5 0 118 3.5a4.5 4.5 0 010 9zm-.75-7h1.5v4H7.25V5.5zm0 5h1.5v1.5H7.25V10.5z" fill="#854F0B"/>
+          </svg>
+        </div>
+        <p class="goal-title">Risk yönetimi</p>
+        <p class="goal-desc">Kaybedilme riski taşıyan müşterileri tespit edip harekete geçme</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <p class="section-label">KPI'lar — formülü görmek için kartı tıkla</p>
+    <div class="kpi-grid">
+      <div class="kpi-card" onclick="toggleKpi(this)">
+        <span class="kpi-toggle">+</span>
+        <p class="kpi-name">opening_rate</p>
+        <p class="kpi-desc">Açılma oranı — kaç kişi maili açtı?</p>
+        <div class="kpi-formula">open_count / send_count</div>
+      </div>
+      <div class="kpi-card" onclick="toggleKpi(this)">
+        <span class="kpi-toggle">+</span>
+        <p class="kpi-name">click_rate</p>
+        <p class="kpi-desc">Tıklama oranı — gönderilene göre</p>
+        <div class="kpi-formula">click_count / send_count</div>
+      </div>
+      <div class="kpi-card" onclick="toggleKpi(this)">
+        <span class="kpi-toggle">+</span>
+        <p class="kpi-name">CTR</p>
+        <p class="kpi-desc">Açılana göre tıklama oranı</p>
+        <div class="kpi-formula">click_count / open_count</div>
+      </div>
+      <div class="kpi-card" onclick="toggleKpi(this)">
+        <span class="kpi-toggle">+</span>
+        <p class="kpi-name">revenue_per_mille</p>
+        <p class="kpi-desc">1.000 gönderimden elde edilen gelir</p>
+        <div class="kpi-formula">(revenue / send_count) × 1000</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <p class="section-label">Bu projenin 3 amacı</p>
+    <div class="aim-list">
+      <div class="aim-item">
+        <p class="aim-num">01</p>
+        <div>
+          <p class="aim-text">SQL becerilerini geliştirmek</p>
+          <p class="aim-sub">SELECT, WHERE, ORDER BY, GROUP BY, LIKE, LIMIT</p>
+        </div>
+      </div>
+      <div class="aim-item">
+        <p class="aim-num">02</p>
+        <div>
+          <p class="aim-text">SQLite kullanmak</p>
+          <p class="aim-sub">crf_campaign_metrics tablosu üzerinden gerçek veriyle çalışmak</p>
+        </div>
+      </div>
+      <div class="aim-item">
+        <p class="aim-num">03</p>
+        <div>
+          <p class="aim-text">CRM ekibinin ihtiyaçlarını anlamak</p>
+          <p class="aim-sub">KPI bazlı karar desteği sağlayan analizler üretmek</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+<script>
+function toggleKpi(card) {
+  const isOpen = card.classList.contains('open');
+  document.querySelectorAll('.kpi-card').forEach(c => {
+    c.classList.remove('open');
+    c.querySelector('.kpi-toggle').textContent = '+';
+  });
+  if (!isOpen) {
+    card.classList.add('open');
+    card.querySelector('.kpi-toggle').textContent = '−';
+  }
+}
+</script>
+</body>
+</html>
