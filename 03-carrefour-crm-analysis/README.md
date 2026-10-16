@@ -1,3 +1,6 @@
+## 📊 Temel Kavramlar
+
+[Carrefour CRM — Temel Kavramlar sayfasını görüntüle](https://sultanale​​yna.github.io/data-analytics-portfolio/03-carrefour-crm-analysis/)
 # Carrefour CRM Email Campaign Analysis
 
 ## Project Overview
