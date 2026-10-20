@@ -59,3 +59,18 @@ This analysis supports data-driven inventory decisions by highlighting categorie
 ## ⚠️ Disclaimer
 
 The findings reflect the analyzed dataset and its inventory snapshot. Shortage rates and replenishment priorities may change as inventory levels and forecasts are updated.
+## 📸 Screenshots
+
+### Inventory Overview
+![Inventory Overview](screenshots/Ekran%20Resmi%202026-10-20%2014.33.54.png)
+
+
+### Daily Clicks Analysis
+![Daily Clicks Analysis](screenshots/clics%20-%20Date.png)
+
+### Instagram Ads Monthly Analysis
+![Instagram Ads Monthly Analysis](screenshots/instagram%20ads%20monthly%20clicks%20vs%20impression.png)
+
+### TikTok Ads Monthly Analysis
+![TikTok Ads Monthly Analysis](screenshots/tiktok%20ads%20monthly%20-spending%20roas%20analysis.png)
+
